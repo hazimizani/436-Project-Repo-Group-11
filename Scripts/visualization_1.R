@@ -8,7 +8,7 @@ require(ggplot2)
 
 fp <- getwd()
 
-crash_data <- read.csv(paste0(fp, '/Motor_Vehicle_Collisions_-_Crashes_20251017.csv'))
+crash_data <- read.csv(paste0(fp, '/Datasets/Motor_Vehicle_Collisions_-_Crashes_20251017.csv'))
 
 # Clean crash data --------------------------------------------------------
 
